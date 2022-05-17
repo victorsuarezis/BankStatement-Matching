@@ -1,0 +1,11 @@
+AD_Org_ID[Name],AD_Package_Exp_ID[Name],Line,Type[Name],AD_EntityType_ID,AD_Menu_ID[Name],FileName,File_Directory,Target_Directory,Destination_FileName,Destination_Directory,AD_Table_ID[Name],DBType[Name],SQLStatement,AD_Package_Code_Old,AD_Package_Code_New,AD_Form_ID[Name],AD_Process_ID[Value],AD_Workflow_ID[Value],AD_Window_ID[Name],AD_Workbench_ID[Name],AD_Role_ID[Name],AD_ReportView_ID[Name],AD_ImpFormat_ID[Name],AD_Val_Rule_ID[Name],AD_Message_ID[Value],AD_PrintFormat_ID[Name],ReleaseNo[Name],Description,AD_Reference_ID[Name],AD_ModelValidator_ID[Name]
+*,nTier Bank Statement Matching,10,Table,,,,,,,,nTier Bank Statement Matching Setup,All Database Types,,,,,,,,,System Administrator,,,,,,,.,,
+*,nTier Bank Statement Matching,15,Table,,,,,,,,Bank statement line,All Database Types,,,,,,,,,System Administrator,,,,,,,.,,
+*,nTier Bank Statement Matching,20,Reference,,,,,,,,,All Database Types,,,,,,,,,System Administrator,,,,,,,,ZZ_NBSM_MatchAction,
+*,nTier Bank Statement Matching,30,Reference,,,,,,,,,All Database Types,,,,,,,,,System Administrator,,,,,,,,ZZ_NBSM_PaymentType,
+*,nTier Bank Statement Matching,35,Process/Report,,,,,,,,,All Database Types,,,,,NBSM_Proc_CreateMatcher,,,,System Administrator,,,,,,,.,,
+*,nTier Bank Statement Matching,40,Window,,,,,,,,,All Database Types,,,,,,,nTier Bank Statement Matching Setup,,System Administrator,,,,,,,.,,
+*,nTier Bank Statement Matching,45,Window,,,,,,,,,All Database Types,,,,,,,nTier Bank Statement Matching Setup Quick Entry,,System Administrator,,,,,,,.,,
+*,nTier Bank Statement Matching,47,Window,,,,,,,,,All Database Types,,,,,,,nTier Bank/Cash Statement,,System Administrator,,,,,,,.,,
+*,nTier Bank Statement Matching,50,Application or Module,,nTier Bank Statement Matching Setup,,,,,,,All Database Types,,,,,,,,,System Administrator,,,,,,,.,,
+*,nTier Bank Statement Matching,60,Application or Module,,nTier Bank Statement,,,,,,,All Database Types,,,,,,,,,System Administrator,,,,,,,,,
